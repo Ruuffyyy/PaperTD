@@ -49,6 +49,11 @@ public class Tower {
             return;
         }
     }
+
+    public void remove() {
+        ironGolem.remove();
+    }
+
 }
 
 
