@@ -1,0 +1,11 @@
+name: PaperTD
+version: '${version}'
+main: de.ruffy.papertd.PaperTD
+api-version: '1.20'
+
+commands:
+  td:
+    description: PaperTD Command
+    usage: /<command> [start|stop|reload]
+    permission: papertd.command
+    aliases: [papertd]
